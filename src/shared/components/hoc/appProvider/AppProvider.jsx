@@ -1,6 +1,7 @@
 "use client";
 
 import { UIProvider } from "@/shared/centralizeManagement/UIManager";
+import UIThemeProvider from "@/shared/theme/UIThemeProvider";
 import store from "@/store";
 import { Suspense } from "react";
 import { Provider } from "react-redux";

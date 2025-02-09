@@ -1,0 +1,1 @@
+export const DRAWER_BREAK_POINT = '(min-width:1000px)';

@@ -45,10 +45,11 @@ let theme = createTheme({
             xl: "20px",
         },
     },
-    shadows: {
-
-    },
     palette: {
+        text: {
+            primary: "rgba(255, 255, 255, 1)",
+            secondary: "rgba(222, 222, 222, 1)"
+        },
         primary: {
             main: "rgba(255, 215, 0, 1)",
             black: "rgba(0, 0, 0, 1)",
