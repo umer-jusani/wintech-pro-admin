@@ -45,9 +45,26 @@ let theme = createTheme({
             xl: "20px",
         },
     },
+    shadows: {
+
+    },
     palette: {
-        mode: mode,
-        ...themeMode[mode],
+        primary: {
+            main: "rgba(255, 215, 0, 1)",
+            black: "rgba(0, 0, 0, 1)",
+        },
+        success: {
+            main: "rgba(0, 231, 152, 1)",
+        },
+        warning: {
+            main: "rgba(255, 52, 52, 1)"
+        },
+        background: {
+            default: "rgba(0, 0, 0, 1)",
+            body: "rgba(24, 24, 27, 1)",
+            lightDark: "rgba(48, 48, 52, 1)"
+        },
+        divider: "rgba(39, 39, 39, 1)"
     },
     components: {
         MuiTableCell: {
